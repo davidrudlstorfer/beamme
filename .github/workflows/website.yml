@@ -24,7 +24,7 @@ jobs:
       - name: Setup python environment
         uses: ./.github/actions/setup_python_environment
         with:
-          python-version: '3.14'
+          python-version: '3.15'
       - name: Install dependencies
         run: |
           # Needed for PyVista to render offscreen
